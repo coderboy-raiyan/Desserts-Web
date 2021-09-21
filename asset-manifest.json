@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/desserts-web/static/css/main.456c2c26.chunk.css",
-    "main.js": "/desserts-web/static/js/main.23917ae6.chunk.js",
-    "main.js.map": "/desserts-web/static/js/main.23917ae6.chunk.js.map",
-    "runtime-main.js": "/desserts-web/static/js/runtime-main.c5b1b44e.js",
-    "runtime-main.js.map": "/desserts-web/static/js/runtime-main.c5b1b44e.js.map",
-    "static/js/2.0d6db443.chunk.js": "/desserts-web/static/js/2.0d6db443.chunk.js",
-    "static/js/2.0d6db443.chunk.js.map": "/desserts-web/static/js/2.0d6db443.chunk.js.map",
-    "index.html": "/desserts-web/index.html",
-    "static/css/main.456c2c26.chunk.css.map": "/desserts-web/static/css/main.456c2c26.chunk.css.map",
-    "static/js/2.0d6db443.chunk.js.LICENSE.txt": "/desserts-web/static/js/2.0d6db443.chunk.js.LICENSE.txt"
+    "main.css": "/Desserts-Web/static/css/main.456c2c26.chunk.css",
+    "main.js": "/Desserts-Web/static/js/main.23917ae6.chunk.js",
+    "main.js.map": "/Desserts-Web/static/js/main.23917ae6.chunk.js.map",
+    "runtime-main.js": "/Desserts-Web/static/js/runtime-main.81a7f29d.js",
+    "runtime-main.js.map": "/Desserts-Web/static/js/runtime-main.81a7f29d.js.map",
+    "static/js/2.0d6db443.chunk.js": "/Desserts-Web/static/js/2.0d6db443.chunk.js",
+    "static/js/2.0d6db443.chunk.js.map": "/Desserts-Web/static/js/2.0d6db443.chunk.js.map",
+    "index.html": "/Desserts-Web/index.html",
+    "static/css/main.456c2c26.chunk.css.map": "/Desserts-Web/static/css/main.456c2c26.chunk.css.map",
+    "static/js/2.0d6db443.chunk.js.LICENSE.txt": "/Desserts-Web/static/js/2.0d6db443.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c5b1b44e.js",
+    "static/js/runtime-main.81a7f29d.js",
     "static/js/2.0d6db443.chunk.js",
     "static/css/main.456c2c26.chunk.css",
     "static/js/main.23917ae6.chunk.js"
