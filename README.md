@@ -1,6 +1,6 @@
 # Desserts-Web
 
-## Live Demo: [Live Site Link](https://coderboy-raiyan.github.io/that-js-dude/)
+## Live Demo: [Live Site Link](https://coderboy-raiyan.github.io/Desserts-Web/)
 
 ## 💻 Developed By
 
