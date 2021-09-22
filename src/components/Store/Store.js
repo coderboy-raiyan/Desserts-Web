@@ -21,13 +21,21 @@ const Store = () => {
     });
     setCakes(newCake);
   };
+  // Search filterCake
+  let handelfilter = (e) => {
+    let userKey = e.target.value.trim().toLowerCase();
+    let filtered = Cakes.filter((cake) =>
+      cake.category.toLocaleLowerCase().includes(userKey)
+    );
+    setCakes(filtered);
+  };
 
   return (
     <section className="our-store py-5" id="store">
       <div className="container">
         <h1 className="store-title text-center fw-bolder py-4">Our Store</h1>
         {/* Catagory filter Buttons */}
-        <div className="filter-row d-flex justify-content-center">
+        <div className="filter-row d-flex justify-content-center flex-wrap">
           {categories.map((cname) => {
             let myObj = {
               cakeName: cname,
@@ -49,7 +57,23 @@ const Store = () => {
           </button>
         </div>
         {/* Search Box */}
-
+        <div className="input-group mb-3 mb-5">
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Search your favourite desserts"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+            onChange={handelfilter}
+          />
+          <button
+            className="btn btn-outline-secondary"
+            type="button"
+            id="button-addon2"
+          >
+            Search
+          </button>
+        </div>
         {/* My singal Cake card */}
         <div className="row">
           {cakes.map((cname) => {
