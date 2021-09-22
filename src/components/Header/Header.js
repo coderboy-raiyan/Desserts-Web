@@ -39,7 +39,12 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item me-3 ">
-              <button type="button" className="btn btn-outline-secondary fs-5">
+              <button
+                type="button"
+                className="btn btn-outline-secondary fs-5"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
                 <i className="bi bi-cart3"></i> 2 items
               </button>
             </li>

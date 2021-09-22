@@ -16,12 +16,7 @@ const StoreCard = ({ cakes, handelCart }) => {
           <h5 className="card-title d-flex justify-content-between">
             <span>{cakes.category}</span> <span>{cakes.price}</span>
           </h5>
-          <button
-            className="btn btn-outline-secondary"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-            onClick={handelCart}
-          >
+          <button className="btn btn-outline-secondary" onClick={handelCart}>
             Add To Cart
           </button>
         </div>
