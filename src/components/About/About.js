@@ -19,7 +19,7 @@ const About = () => {
           </div>
         </div>
         {/* right side about */}
-        <div className="col-12 col-lg-6 col-md-6">
+        <div className="col-12 col-lg-6 col-md-6 mt-5">
           <div className="right-side-about">
             <div className="about-img">
               <img

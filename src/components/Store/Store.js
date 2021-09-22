@@ -30,6 +30,11 @@ const Store = () => {
     setCakes(filtered);
   };
 
+  // Handel Cart
+  let handelCart = (id) => {
+    console.log(id);
+  };
+
   return (
     <section className="our-store py-5" id="store">
       <div className="container">
@@ -77,7 +82,12 @@ const Store = () => {
         {/* My singal Cake card */}
         <div className="row">
           {cakes.map((cname) => {
-            return <StoreCard cakes={cname} />;
+            return (
+              <StoreCard
+                cakes={cname}
+                handelCart={() => handelCart(cname.id)}
+              />
+            );
           })}
         </div>
       </div>

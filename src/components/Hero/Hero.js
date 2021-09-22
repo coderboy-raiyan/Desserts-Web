@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="main-hero" id="home">
       <div className="row">
-        <div className="col-12">
+        <div className="col-12 col-lg-12 col-md-12">
           <h1 className="text-white">
             Welcome To <span className="title">Grandma's</span>
           </h1>
